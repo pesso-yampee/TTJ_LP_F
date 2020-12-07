@@ -5,16 +5,9 @@
   }
 }
 .u-hidden-pc {
-  @include mq(u-pc) {
+  @include mq(o-pc) {
     display: none !important;
   }
 }
 
 .u-mb-10 { margin-bottom: 10px !important; }
-
-.u-display-smSp {
-  display: none;
-  @include mq(u-smsp) {
-    display: block;
-  }
-}
