@@ -1,0 +1,70 @@
+.p-top-registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Kosugi Maru", sans-serif;
+
+  @include mq('u-sp') {
+    width: 90%;
+  }
+}
+
+.p-top-registration__message {
+  margin-bottom: 50px;
+}
+
+.p-top-registration__message--thanks {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: bold;
+  letter-spacing: 10px;
+
+  @include mq('u-sp') {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+
+  @include mq('u-smsp') {
+    font-size: 22px;
+    letter-spacing: 3px;
+  }
+}
+
+.p-top-registration__company {
+  text-align: left;
+  margin-bottom: 100px;
+  padding: 20px;
+  border: 1px solid rgba(#808080, .7);
+
+  @include mq('u-sp') {
+    width: 90%;
+    margin: 0 auto 40px;
+  }
+}
+
+.p-top-registration__company--name {
+  margin-bottom: 10px;
+}
+
+.p-top-registration__company--address {
+  margin-bottom: 20px;
+}
+
+.p-top-registration__img--ttj {
+  width: 20%;
+  height: auto;
+  align-self: flex-end;
+  margin-right: 250px;
+
+  @include mq('u-sp') {
+    width: 50%;
+    align-self: center;
+    margin-right: 0;
+  }
+}
